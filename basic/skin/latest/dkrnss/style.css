@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* 새글 스킨 (latest) */
+
+.wrap{width: 1200px; margin: 0 auto; background: #fff;}
+.section{padding: 30px 0; width: 950px; margin: 0 auto;}
+.section:after{content:""; clear: both; display: block;}
+
+.section .section_title{float: left; width: 150px;}
+.section .section_title h3{font-size:20px; font-weight: bold; color:#333;}
+.section .section_title .more_btn{display: block; width: 23px; height: 23px; background:url(./img/more_btn01.png) 0 -23px no-repeat; text-indent:-9999px; margin-top: 14px;}
+.section .section_title .more_btn:hover{background-position:0 0;}
+
+.section .section_content{float: right; width: 800px;}
+.news_list:after{content:""; clear: both; display: block;}
+.news_list li{float: left; border-left: 1px solid #dddedf; width: 200px; padding-left: 20px; box-sizing:border-box;}
+.news_list li:first-child{border-left: 0; padding-right: 30px;}
+.news_list li+li{padding-right: 30px;}
+
+.news_list a{color:#888;}
+.news_list .news_title{font-size:20px; height: 84px; color:#56565e; margin-bottom: 37px;}
+.news_list .date{font-size:13px;}
